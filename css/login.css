@@ -1,0 +1,143 @@
+* {
+    font-family: 'Poppins' , 'Courier New', Courier, monospace,sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* html {
+    box-sizing: border-box;
+    scroll-behavior: smooth !important;
+} */
+
+body {
+    background: url(../walpaper/bgc.jpg) no-repeat center center fixed;
+    background-size: cover;
+    /* background-position-y: top; */
+    /* height: 50%; */
+    /* position: fixed; */
+}
+
+.login {
+    width: 400px;
+    height: 482px;
+    background: rgba(226, 211, 249, 0.5);
+    border: 1px solid black;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    border-radius: 15px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 1);
+    backdrop-filter: blur(5px);
+    /* filter: drop-shadow(0px 4px 4px #000000); */
+    /* box-sizing: border-box; */
+    
+    
+}
+
+
+.logo  img{
+    /* position: absolute; */
+    width: 111px;
+    height: 60.11px;    
+    padding: 30px 0 30px 0;
+    /* border: 1px solid red; */
+}
+
+.logo {
+    text-align: center;
+}
+
+.login p {
+    text-align: center;
+    padding-bottom: 17px;
+}
+
+.input {
+    text-align: center;
+    /* float: left; */
+    /* border: 1px solid red; */
+    
+}
+
+.input .text{
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid grey;
+    width: 260px;
+    height: 30px;
+}
+
+.input .pass{
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid grey;
+    width: 260px;
+    height: 30px;
+}
+
+.check {
+    /* float: left; */
+    margin-left: -175px;
+}
+
+.signin p {
+    font-size: 10px;
+}
+
+.rme-forgt a{
+    font-size: 10px;
+}
+
+.rme-forgt {
+    padding-top: 8px;
+    display: flex;
+    padding-left: 200px;
+    justify-content: space-between;
+    width: 120px;
+    text-align: center;
+}
+
+.signin3 {
+    width: 100px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #ff6d1ec0;
+    box-shadow: 0  6px 0 #84360cc0;
+    padding-bottom: 10px;
+    border: none;
+    /* border: 0px solid black; */
+    cursor: pointer;
+    opacity: .7;
+    transition: all .8s ease 0s;
+}
+
+.signin3:hover{
+    opacity: 1;
+    color: white;
+}
+
+.signin3:active{
+    /* transform: translate(100px,52px); */
+    box-shadow: none;
+    transform: translate(0px,6px);
+
+    /* top: 6px; */
+}
+
+.signin2 {
+    padding-bottom: 10px;
+    /* border: 1px solid red; */
+}
+
+.facebook {
+    width: 44px;
+    margin-right: 40px;
+    /* border: 1px solid red; */
+}
+
+.google{
+    width: 44px;
+    /* border: 1px solid red; */
+}
+

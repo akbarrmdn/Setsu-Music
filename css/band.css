@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    height: 911px;
+    background: url(../imgband/Frame6.png) no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    /* width: 100%; */
+    z-index: 1;
+}
+
+.navbar {
+    list-style: none;
+}
+
+
+.navbar li {
+    /* animation: myAnim 1s ease 0s 1 normal forwards; */
+    display: inline-block;
+    padding: 0px 20px;
+    /* background-color: red; */
+    transition: all .8s ease 0s;
+}
+
+.navbar li:hover{
+    border-radius: 8px;
+    /* width: 100px;
+    height: 30px; */
+    text-align: center;
+    justify-content: center;
+    background-color: #FF3D00;
+    position: relative;
+    width: auto;    
+}
+
+.navbar li a {
+    width: 200px;
+    height: 100px;
+    transition: all 0.3s ease 0s;
+}
+.navbar li a:hover {
+    /* background-color: aqua; */
+    
+    color: white;
+}
+
+.propil{
+    padding: 9px 25px;
+}
+
+.logo {
+    width: 111px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.profile {
+    width: 53px;
+    height: 53px;
+}
+
+li, a, .propil {
+    font-family: 'Poppins', 'Courier New', Courier, monospace,sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+    text-decoration: none;
+}
+
+.bgall {
+    /* border: 1px solid red; */
+    padding: 35px 45px;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.container {
+    padding: 110px 10%;
+    /* border: 1px solid red; */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10%;
+    background-color: rgba(255, 255, 255,0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+
+.popipa .logopopipa {
+    width: 275px;
+    height: 58px;
+}
+
+.popipa .imgpopipa {
+    border-radius: 15px;
+    width: 400px;
+    height: 300px;
+}
+
+.popipa .imgpopipa4 {
+    border-radius: 15px;
+    background-size: cover;
+    width: 400px;
+    height: 300px;
+    /* height: 300px; */
+}
+
+.popipa {
+    padding-bottom: 80px;
+}
+
+.logopopipa{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.logopopipa2{
+    width: 200px;
+    height: 58px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.logopopipa3{
+    width: 170px;
+    height: 58px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.logopopipa4{
+    width: 180px;
+    height: 58px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.logopopipa5{
+    width: 180px;
+    height: 58px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.logopopipa6{
+    width: 180px;
+    height: 58px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+/* .content1{
+ border: 1px solid red;
+} */
+
+.list1{
+    margin-top: 35px;
+    padding: 50px 0 0 30px;
+    width: 400px;
+    height: 300px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 15px;    
+}
+
+.list1 h1 {
+    padding-bottom: 20px;
+}
+
+.list1 li {
+    /* padding-bottom: 8px; */
+    font-weight: 200;
+    list-style: none;
+    width: 250px;
+    /* border: 1px solid red; */
+}
+
+.list1 a li {
+    margin-top: 7px;
+    transition: all .8s ease 0s;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.list1 li:hover {
+    color: #FF3D00;
+    list-style: none;
+    background-color: black;
+
+
+}
+
+
+
+
+.content1 {
+    display: flex;
+    justify-content: space-between;
+}
